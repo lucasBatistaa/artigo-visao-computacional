@@ -5,6 +5,26 @@ Com o aumento considerável da população idosa no Brasil e no mundo, torna-se 
 ![My Skills](https://skillicons.dev/icons?i=python)
 ![My Skills](https://skillicons.dev/icons?i=opencv)
 
+## Como usar?
+### Pré-requisitos:
+- Instalar Python (https://www.python.org/downloads/)
+- Instalar Miniconda (https://docs.anaconda.com/miniconda/)
+- Instalar VSCode ou outra IDE de sua escolha
+- Acesso a câmera de celular ou webcam para captura de vídeo
+
+### Passo 1 - Clonar repositório: 
+- Abrir Terminal (Prompt de comando)
+- Escolher o local que será armazenado: `cd <caminho da pasta>`
+- Clonar repositório: `git clone https://github.com/lucasBatistaa/artigo-visao-computacional`
+
+### Passo 2 - Configurar ambiente Miniconda:
+- Criar ambiente de desenvolvimento: `conda env create -f environment.yml`
+- Ativar ambiente: `conda activate article`
+
+### Passo 3 - Executar código
+- Abrir terminal da IDE
+- Comando: `python fall-detection.py`
+
 ### Bibliotecas e Ferramentas
 - Teachable Machine: Ferramenta web de criação de modelos de aprendizado de máquina.
 - Numpy: Biblioteca com funções matemáticas abrangentes. Utilizada no projeto para transformação da imagem em um array numpy e seleção de classe com maior probabilidade.
